@@ -1,13 +1,17 @@
 import React from 'react'
 import './App.css'
 import TitleUpdater from "./TitleUpdater"
+import WindowSize from './WindowSize'
+import PersistentCounter from './PersistentCounter'
 
 function App() {
   return (
     <div>
-      <TitleUpdater />
+      {/* <TitleUpdater /> */}
+      {/* <WindowSize /> */}
+      <PersistentCounter />
     </div>
   )
 }
 
-export default App;
+export default App
