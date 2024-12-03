@@ -4,6 +4,8 @@ import TitleUpdater from "./TitleUpdater"
 import WindowSize from './WindowSize'
 import PersistentCounter from './PersistentCounter'
 import RealTimeClock from './RealTimeClock'
+import ToggleText from './ToggleText'
+import LimitedCounter from './LimitedCounter'
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       {/* <TitleUpdater /> */}
       {/* <WindowSize /> */}
       {/* <PersistentCounter /> */}
-      <RealTimeClock />
+      {/* <RealTimeClock /> */}
+      {/* <ToggleText /> */}
+      <LimitedCounter />
     </div>
   )
 }
